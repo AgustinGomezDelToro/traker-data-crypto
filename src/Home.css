@@ -1,0 +1,24 @@
+/* Home.css */
+body {
+    background-color: #f8f8f8;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+h1 {
+    font-family: "Arial", sans-serif;
+    font-size: 36px;
+    color: #333;
+    cursor: pointer;
+}
+
+h1:hover {
+    color: #666;
+}

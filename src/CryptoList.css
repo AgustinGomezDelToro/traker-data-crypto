@@ -1,0 +1,28 @@
+.crypto-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.crypto-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.rank {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.name {
+    margin-right: 10px;
+}
+
+.symbol {
+    margin-right: 10px;
+    color: #888;
+}
+
+.type {
+    color: #888;
+}
