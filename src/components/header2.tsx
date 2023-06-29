@@ -14,7 +14,7 @@ function Header2() {
                     </li>
 
                     <li className="nav__item">
-                        <Link to="/cryptos/detail" className="nav__link">
+                        <Link to="/cryptos/detail/1" className="nav__link">
                             Détail d'une crypto
                         </Link>
                     </li>
