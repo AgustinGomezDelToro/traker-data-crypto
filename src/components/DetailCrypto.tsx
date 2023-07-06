@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
+import '../App.css';
+import '../CryptoList.css';
 
 interface CryptoDetail {
     id: string;
@@ -48,10 +50,10 @@ function DetailCrypto() {
 
     return (
         <div>
-            <h2>Détail d'une crypto</h2>
-            <p>Name: {cryptoDetail.name}</p>
-            <p>Symbol: {cryptoDetail.symbol}</p>
-            <p>Rank: {cryptoDetail.rank}</p>
+            <h2 >Détail d'une crypto</h2>
+            <p className="crypto-name">Name: {cryptoDetail.name}</p>
+            <p className="crypto-symbol">Symbol: {cryptoDetail.symbol}</p>
+            <p className="crypto-rank">Rank: {cryptoDetail.rank}</p>
         </div>
     );
 }
